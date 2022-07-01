@@ -1,0 +1,287 @@
+/*fuente de texto: css:familia tipográfica: 'Nunito', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2? family= Nunito:ital,wght@0,200;0,700;1,200;1,700 & display=swap');
+
+/*reseteo de margen general*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*configuracion global del sitio*/
+html{
+    font-size: 62.5%;
+    background-color:white;
+    font-family:'Nunito', sans-serif;
+}
+body{
+    font-size: 1.6em;
+    color:#162b6e;
+}
+
+header{
+    margin-top: 5px;
+    background-color: #162b6e;
+}
+
+/*menu de navegacion*/
+.barranav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+
+.logo{
+    display: inline;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #aadce5;  
+    margin: 5px;
+}
+.menu{
+    display:inline-block;
+    list-style-type: none;
+    justify-content:space-between;
+    
+}
+
+.menu__item{
+    display: inline-block;
+    list-style-type:none;
+}
+
+.menu__link{
+    text-decoration: none;
+    display:inline-block;
+    color: white;
+    font-size: bold;   
+}
+
+/*cuerpo de la pagina principal*/
+.titulo{
+    border-top: 15px;
+    margin:auto;
+    padding-top: 15px;
+    font-family:'Nunito', sans-serif;
+    font-size: bold;
+    text-align: center;
+}
+/*hipervinculo del segundo titulo. acceso directo a la tabla que esta en la segunda pagina del index*/
+.hiperviculo_tabla{
+    font-size: 10px;
+}
+/*configuracion de imagen y texto en paralelo*/
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+.articulo{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.articulo_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.articulo_parrafo{
+    display: flex;
+    margin-top: 2rem;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    padding: 25x;
+    line-height: 25px;
+}
+
+.articulo2{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.articulo2_img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-right: 15rem;
+    margin-left: 2rem;
+}
+.articulo2_parrafo{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    width: 500px;
+    height: 350;
+    text-align: center;
+    padding: 25x;
+    line-height: 25px;
+}
+/*paginas secundarias caracteristica global*/
+.titulo__principal__paginas__secundarias{
+    color:#5d18a6;
+    text-align: center;
+    font-family:'Nunito', sans-serif;
+    font-size: bold;
+    margin:4rem;
+
+}
+/*pie de pagina*/
+footer{
+    background-color: #162b6e;
+    display: flex;
+    margin: auto;
+    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    justify-content: center;
+    font-family:'Nunito', sans-serif;
+    font-size: 10px;
+    color:#fff;   
+}
+
+/* ESTILO DE CADA PAGINA*/
+/* INDEX*/
+/*Estilos de tabla*/
+
+.formato__de__tabla {
+     margin-left: 300px;
+    margin-right: 300px;
+    border-left: 30px;
+    border-right: 30px;
+    border-color: blue;
+    background-color: aquamarine;
+    text-align: justify;
+    line-height: 25px;
+}
+tr {
+    text-align: center;
+}
+
+tr, th, td, ol{
+    padding: 20px;
+}
+/* PAGINA ACTIVIDADES*/
+
+.actividades_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #1ecbe1;
+    margin:4rem;
+    
+}
+.titulo_actividades{
+    color:#1ecbe1;
+    text-align: center;
+    font-family:'Nunito', sans-serif;;
+    font-size: 20px;
+    width: 150px;
+    height: 75px;
+    margin: auto;
+}
+/*como estan dispuesta la imagen y el texto: paralelo y tutulo abajo*/
+.disposicion_actividades{
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    margin-right: auto;   
+}
+/*BIBLIOGRAFIA*/
+/* titulo: bibliografia= centrado y en violeta*/
+.titulo__de__seccion{
+    color:#1ecbe1;
+    text-align: center;
+    border: 1px solid #1ecbe1;
+    padding-top: 1rem;
+    font-family:'Nunito', sans-serif;;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    margin: auto;
+}
+/* como esta dispuesta los titulos y los subtemas*/
+.disposicion_bibliografia{
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    margin-right: auto;            
+}
+dd{
+    line-height: 25px;
+    padding: 2rem;
+    text-align: justify;
+    text-decoration:underline;
+    
+}
+/*NOVEDADES*/
+/*Formato para la imagen*/
+.novedades_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #1ecbe1;
+    margin:4rem;      
+}
+/*formato para el titulo novedades*/
+.titulo_novedades{
+    color:#1ecbe1;
+    text-align: center;
+    font-family:'Nunito', sans-serif;
+    font-size: 20px;
+    width: 150px;
+    height: 75px;
+    margin: auto;
+}
+ /*distribucion de las imagenes y titulos*/   
+/*.disposicion_novedades{
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+    margin-right: auto;           
+}
+/*CONTACTOS*/
+/* Distribucion de el texto, mapa y formulario en la pagina*/
+.disposicion_pagina{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4rem;
+}
+/*configuracion de texto*/
+.disposicion_texto{
+    
+    margin-left: 250px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 400px;
+    height: 320px;
+}
+/*configuracion de formulario*/
+.disposicion_formulario{
+    border:3px solid #1d94a4;    
+    margin: 2rem;
+    padding-right:1rem;
+    padding-left: 1rem;
+    display: flex;
+    width: 400px;
+    height: 340px;
+}
+.estilo__formulario{
+    padding: 2rem;
+    line-height: 25px;
+    height: 300px;
+}
+/* formato para que el icono si/no esten el paralelo*/
+.item_en_paralelo{
+    display: flex;
+    flex-direction: row;
+}
