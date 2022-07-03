@@ -1,113 +1,124 @@
 <!DOCTYPE HTML>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/img/favicontavo.png"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>   
-    <script src="https://kit.fontawesome.com/800476bb0b.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="../assets/img/favicontavo.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>   
+  <script src="https://kit.fontawesome.com/800476bb0b.js" crossorigin="anonymous"></script>
 
-    <title>tavo</title>
-    <!--por recomendacion de diego debemos separar en este sector las etiquetas de bootstrap-->
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../assets/css/estilos.css"/>
-    <script src="../assets/bootstrap/js/jquery.slim.min.js"></script>
-    <scrpt src="../assets/bootstrap/js/jquery.slim.min.js"></scrpt> 
+  <!--codigo funcional y ordenado de bootstrap-->
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css"/>
+  <script src="../assets/bootstrap/js/jquery.slim.min.js"></script>
+  <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../assets/css/estilos.css"/>
+  <title>tavo</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row justify-content-start align-items-center">
-                <div class="col-4 text-center">
-                    <img class="logo" src="../assets/img/logo tavo (2).png" alt="logotavo">
-                </div>
-                <div class="col-6 text-center">
-                    <!-- Navbar content -->
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <a class="navbar-brand" href="../index.html">inicio</a>
-                                             
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-                            <li class="nav-item active">
-                              <a class="nav-link" href="../pages/actividades.html">actividades <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="../pages/bibliografia.html">bibliografia</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="../pages/novedades.html">novedades</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="../pages/contactos.html">contactos</a>
-                            </li>
-                          </ul>
-                        </div>
-                    </nav>                  
-                </div>    
+  <header>
+     <div class="container">
+       <div class="row justify-content-start align-items-center">
+            <div class="col-4 text-center">
+                <img class="logo" src="../assets/img/logo tavo (2).png" alt="logotavo">
             </div>
+            <div class="col-6 text-center">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href=""></a>
+                  
+                    <div class="navbar-collapse collapse show" id="navbarTogglerDemo02" style="border-color: blue;">
+                        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/actividades.html">Actividades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/bibliografia.html">bibliografia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/novedades.html">Novedades</a>                
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../pages/contactos.html">contacto<span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>                                      
+            </div>    
         </div>
-    </header>
-    <div class="titulo__principal__paginas__secundarias">
-        <h1>CONTACTOS</h1>
     </div>
-    <div class="disposicion_pagina">
-        <address class="disposicion_texto">
-        Escriba a <a href="mailto:consultas@tavo.com">consultas@tavo.com</a>.<br>telefono 011-xxxx-xxxx. <br>Visitenos en: Avenida juan de los palotes 000 <br> Box 564, Ciudad Autonoma de Buenos Aires.<br>Argentina.<br>
-            <picture>
-                <img src="../assets/img/localizaciondetavo.png" alt="mapa de localizacion" width="300" height="250">
-            </picture>
-        </address>
+  </header>
+  <div class="container">
+    <div class=" text-center mb-3 titulo__principal__paginas__secundarias">
+      <h1>CONTACTOS</h1>
+    </div> 
+    <div class="row"> 
+      <div class="col-12 col-md-6 col-lg-6 col-xl-6 mb-1 card">
+        <div class="card-body">
+          <p class="card-text text-center">Visitemos en:</p>
+        </div>
+        <img src="../assets/img/localizaciondetavo.png" alt="mapa" width="100%" height="50%" class="text-center">
+        <div class="card-body">
+          <p class="card-text text-center"><a href="mailto:consultas@tavo.com">consultas@tavo.com</a>.<br>telefono 011-xxxx-xxxx. <br>Visitenos en: Avenida juan de los palotes 000 <br> Box 564, Ciudad Autonoma de Buenos Aires.<br>Argentina.<br></p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-1">
+        <form>Datos de Contacto
+          <div class="form-group">
+            <label for="formGroupExampleInput">Apellido</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Apellido">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Nombre</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Nombre">
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="text" readonly class="form-control-plaintext border border-dark mb-2" id="staticEmail" value="email@example.com">
+          </div>
 
-        <section class="disposicion_formulario">
-        <!--datos del formulario-->
-            <article class="articulo">
-                <form action="gracias.html" method="get" enctype="application/x-www-form-urlencoded">
-                    <fieldset class="estilo__formulario">
-                        <legend>REALIZA TU CONSULTA AQUI</legend>
-                        <legend>Datos Personales</legend>
-                        <label for="nombre">nombre:</label>
-                        <input type="text"id="nombre" name="nombre"autofocus required/><br>
-                        <label for="apellido">apellido:</label> 
-                        <input type="text" id="apellido" name="apellido"required><br>
-                        <label for="email">email:</label>
-                        <input type="email" id="email" name="email"placeholder="dominio@gmail.com" required pattern="@gmail.com"/><br>
-                        <label for="ocupacion">ocupacion</label>
-                        <select name="ocupacion">
-                            <option value="estudiante de lic en obstetricia">estudiante de lic. en obstetricia</option>
-                            <option value="estudiante de medicina">estudiante de medicina</option>
-                            <option value="lic. en obstetricia">lic. en obstetricia</option>
-                            <option value="medico">medico</option>
-                            <option value="estudiante de otras carreras">estudiante de otras carreras</option>
-                            <option value="otra profesion">otra profesion</option>
-                        </select>
-                        <div class="item_en_paralelo"><p>¿Desea recibir notificaciones?</p>
-                            <div> si
-                                <input type="radio" name="notificaciones" value="si">
-                            </div>
-                            <div> no
-                                <input type="radio" name="notificaciones" value="no">
-                            </div>
-                        </div>
-                        <div>
-                            <label for="escriba su consulta">escriba su consulta</label><br>
-                            <textarea name="consulta" id="consulta" rows="5" cols="42"></textarea>
-                        </div>
-                        <input type="submit" value="enviar">
-                        <input type="reset" value="borrar todo">
-                    </fieldset>
-                </form>
-            </article>
-        </section>
+          <div class="input-group">ingrese su consulta aqui>
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <input type="checkbox" aria-label="Checkbox for following text input">
+              </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with checkbox">
+          </div>
+          <div>            
+            <fieldset disabled="">
+              <div class="form-group">
+                <label for="disabledTextInput">Ocupación</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+              </div>
+              <div class="form-group">
+                <label for="disabledSelect">Profesion</label>
+                <select id="disabledSelect" class="form-control">
+                  <option>Lic. en obstetricia/obstetrica</option>
+                  <option>Medico residente</option>
+                  <option>Medico Tocoginecologo</option>
+                  <option>Lic. en Enfermeria/enfermero/a</option>
+                </select>                
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled="ocupacion">
+                <label class="form-check-label" for="disabledFieldsetCheck"> Soy estudiante</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </fieldset>
+          </div>
+        </form>
+      </div>
     </div>
-<footer>
-    <p>Derechos reservados 2022</p> 
-    <p>- Al usar este sitio, usted acepta nuestros términos de uso y nuestra política de privacidad.</p>
-</footer>     
+  </div>      
+  <footer>
+    <p class="text-center"> Derechos reservados 2022 - Al usar este sitio, usted acepta nuestros términos de uso y nuestra política de privacidad.</p>
+  </footer>     
 </body>
-
 </html>

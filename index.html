@@ -1,87 +1,92 @@
 <!DOCTYPE HTML>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/favicontavo.png"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>   
-    <script src="https://kit.fontawesome.com/800476bb0b.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="assets/img/favicontavo.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>   
+  <script src="https://kit.fontawesome.com/800476bb0b.js" crossorigin="anonymous"></script>
+<!--codigo funcional y ordenado de bootstrap-->
+  <link rel= "stylesheet" href="./assets/bootstrap/css/bootstrap.min.css"/> 
+  <script src="./assets/bootstrap/js/jquery.slim.min.js"></script>
+  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/estilos.css"/>
 
-    <title>tavo</title>
-    <!--por recomendacion de diego debemos separar en este sector las etiquetas de bootstrap-->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/estilos.css"/>
-    <script src="assets/bootstrap/js/jquery.slim.min.js"></script>
-    <scrpt src="assets/bootstrap/js/bootstrap.bundle.min.js"></scrpt> 
+  <title>tavo</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row justify-content-start align-items-center">
-                <div class="col-4 text-center">
-                    <img class="logo" src="assets/img/logo tavo (2).png" alt="logotavo">
-                </div>
-                <div class="col-6 text-center">
-                    <!-- Navbar content -->
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">inicio</a>
-                                             
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-                            <li class="nav-item active">
-                              <a class="nav-link" href="pages/actividades.html">actividades <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="pages/bibliografia.html">bibliografia</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="pages/novedades.html">novedades</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="pages/contactos.html">contactos</a>
-                            </li>
-                          </ul>
-                        </div>
-                    </nav>                  
-                </div>    
-            </div>
+  <header>
+    <div class="container">
+      <div class="row justify-content-start align-items-center">
+        <div class="col-4 text-center">
+          <img class="logo" src="assets/img/logo tavo (2).png" alt="logotavo">
         </div>
-    </header>
-    <section class="container mt-5 align-items-center">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-6 col-xl-10 mb-1">
-                <div class="card text-center align-items-center">
-                    <div class="card-body">
-                      <p class="card-text">TAVO: Tecnologia de Aprendizaje en obstetricia</p>
-                    </div>
-                    <img src="assets/img/imagendelindex.png" alt="Card image"class="articulo_img">
-                    <div class="card-body">
-                      <p class="card-text"> TAVO es un sitio web interactivo pensado para todas aquellos usuarios que quieran capacitarse en obstetricia, con el objetivo de ayudarlos a incorporar nuevos conocimientos de forma ordenada y generando espacios de autoevaluación. A su vez es dinámica y colaborativa, es decir que pueden interactuar entre participantes con distintos niveles formativos. Su fundamento se basa en adquirir un pensamiento integral para el abordaje de las gestantes.</p>
-                    </div>
-                </div>
+        <div class="col-6 text-center">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href=""></a>
+                  
+            <div class="navbar-collapse collapse show" id="navbarTogglerDemo02" style="border-color: blue;">
+              <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/actividades.html">Actividades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/bibliografia.html">bibliografia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/novedades.html">Novedades</a>                
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/contactos.html">contacto</a>
+                </li>
+              </ul>
             </div>
-            <div class="col-12 col-md-6 col-lg-6 col-xl-10 mb-3">
-                <div class="card text-center align-items-center">
-                    <div class="card-body">
-                      <p class="card-text">Por qué estudiar de esta manera?</p>
-                    </div>
-                    <img src="assets/img/cursos.jpg" alt="Card image"class="articulo_img">
-                    <div class="card-body">
-                      <p class="card-text">TAVO proporciona distintos recursos para el aprendizaje en obstetricia.<br>
-                       Hoy en día, con las leyes de protección del nacimiento  que promueven la integridad y el respeto por el binomio madre-hijo sobre los procesos de gestación, parto y nacimiento, logrando un cambio en los paradigmas de atención que ha puesto en jaque las intervenciones obstétricas innecesarias, es por ello que se requiere que los alumnos y profesionales se capaciten de manera constante.</p>
-                    </div>
-                </div>
-            </div>
+          </nav>                                  
+        </div>    
+      </div>
+    </div>
+  </header>
+
+  <section class="container mt-5 align-items-center">
+    <div>
+      <h1 class="text-center mb-3">TAVO: Tecnologia de aprendisaje en Obstetricia</h1>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-6 col-xl-6 mb-1">
+        <div class="card text-center align-items-center">
+          <div class="card-body">
+            <p class="card-text">Qué es TAVO?</p>
+          </div>
+          <img src="assets/img/imagendelindex.png" alt="Card image"class="articulo_img">
+          <div class="card-body">
+            <p class="card-text"> TAVO es un sitio web interactivo pensado para todas aquellos usuarios que quieran capacitarse en obstetricia, con el objetivo de ayudarlos a incorporar nuevos conocimientos de forma ordenada y generando espacios de autoevaluación. A su vez es dinámica y colaborativa, es decir que pueden interactuar entre participantes con distintos niveles formativos. Su fundamento se basa en adquirir un pensamiento integral para el abordaje de las gestantes.</p>
+          </div>
         </div>
-    </section>
-    <footer>
-        <p class="text-center">Derechos reservados 2022 - Al usar este sitio, usted acepta nuestros términos de uso y nuestra política de privacidad.</p>
-    </footer>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 col-xl-6 mb-3">
+        <div class="card text-center align-items-center">
+          <div class="card-body">
+            <p class="card-text">Por qué estudiar de esta manera?</p>
+          </div>
+          <img src="assets/img/cursos.jpg" alt="Card image"class="articulo_img">
+          <div class="card-body">
+            <p class="card-text">TAVO proporciona distintos recursos para el aprendizaje en obstetricia.<br> Hoy en día, con las leyes de protección del nacimiento  que promueven la integridad y el respeto por el binomio madre-hijo sobre los procesos de gestación, parto y nacimiento, logrando un cambio en los paradigmas de atención que ha puesto en jaque las intervenciones obstétricas innecesarias, es por ello que se requiere que los alumnos y profesionales se capaciten de manera constante.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p class="text-center">Derechos reservados 2022 - Al usar este sitio, usted acepta nuestros términos de uso y nuestra política de privacidad.</p>
+  </footer>
 
 </body>
    

@@ -256,6 +256,7 @@ dd{
     align-items: center;
     margin-top: 4rem;
 }
+
 /*configuracion de texto*/
 .disposicion_texto{
     
@@ -272,13 +273,11 @@ dd{
     padding-right:1rem;
     padding-left: 1rem;
     display: flex;
-    width: 400px;
-    height: 340px;
+    width: 80%;
 }
 .estilo__formulario{
     padding: 2rem;
     line-height: 25px;
-    height: 300px;
 }
 /* formato para que el icono si/no esten el paralelo*/
 .item_en_paralelo{
